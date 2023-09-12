@@ -16,7 +16,9 @@ Think of the docker container as a vm/ssh connection. Using the scripts you can 
 - You only need to use `run.sh` once and then you can enter and exit the container any number of times.
 - If you make any modification to the image by editing the `Dockerfile` then use `build.sh` to rebuild the image.
 
-By default you'll be logged in as the `noroot` user. So any command you run will be run without root permissions. However using `sudo` will make the command run with root permissions without asking for any password.
+By default you'll be logged in as the `noroot` user. So any command you run will be run without root permissions. However using `sudo` will make the command run with root permissions without asking for any password. \
+
+Any files you put in the `code` folder will be accessible inside the container in the same location.
 
 ## Resources
 -**Docker**: Official Website is [https://www.docker.com/](https://www.docker.com/) \
