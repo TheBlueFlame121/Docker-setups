@@ -11,6 +11,7 @@ All the dockers come with `python3` which has `pwntools` and `tqdm` installed. T
 ## How to use
 Think of the docker container as a vm/ssh connection. Using the scripts you can login to the vm/make the ssh connection and you'll end up with a terminal shell in the container.
 - Open the desired docker folder
+- Run `build.sh` once to build the image from the Dockerfile
 - Use `run.sh` to start the container and `stop.sh` to stop it
 - `start.sh` can be used to start using the container, akin to logging into a vm.
 - You only need to use `run.sh` once and then you can enter and exit the container any number of times.
